@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folio.</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/d1e0a0909b.js" crossorigin="anonymous"></script>
+
+    <!--css styling-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="div">
+    <!--header section-->
+
+    <header>
+        <div class="logo">
+            <h2>code<span class="logo-span">r</span><span id="dot">.</span></h2>
+        </div>
+        <div class="navigation" id="navigation">
+            <i class="fa-solid fa-times" id="close-btn" onclick="closemenu()"></i>
+            <ul>
+                <li><a href="#home" class="active" >Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-bars" id="open-btn" onclick="openmenu()"></i>
+        </div>
+    </header>
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="overlay"></div>
+        <div class="home-text">
+            <div class="slido">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Elvis onya<span class="name">ngo</span></h1>
+            <h3>And I am a <span class="multiple-text"></h3>
+            <p>With my expertise in Python, Flask, Django, HTML, CSS, Bootstrap and JavaScript, I can help you develop and design websites that are visually stunning and highly functional. Additionally, I make use of Tailwind CSS to ensure that your website is highly responsive and optimized for all devices. Trust me to create a website that will perfectly represent your brand and leave a lasting impression on your visitors.</p>
+            <div class="btn">
+                <button type="button" class="cv"><a href="cv.html">Download CV</a></button>
+                <button type="button" class="hire">Hire me</button>
+            </div>
+        </div>
+    </section>
+
+    <!--about me-->
+    <section class="about" id="about">
+        <h2>About  <span class="me">me</span></h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/img/Free Photo _ Top view of unrecognizable hacker performing cyberattack at night.jpeg" alt="">
+            </div>
+            <div class="about-text">
+                <h4>Web developer</h4>
+                <p>Hi, my name is ELVIS ONYANGO and I am a web developer. I have extensive experience in building and customizing websites using various frameworks and technologies such as Python ,Django,Flask, JS,HTML, Bootstrap and  CSS. 
+
+                    I have also worked with Microsoft technologies including HTML, JavaScript framework to develop web user controls, master pages, and validation controls. Additionally, I am proficient in Flask and DJango Python and have used it to develop various applications. 
+
+                    Currently, I am studying deep learning and I am looking forward to specializing in backend web  development and Deep learning</p>
+                <button type="button" class="more">More info.</button>
+            </div>
+        </div>  
+    </section>
+
+    <!--services-->
+    <section class="services" id="services">
+        <div class="main-text">
+            <p>what I am Expert In</p>
+            <h2><span class="my">My</span>Services</h2>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="s-icon">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                </div>
+                <h3>Web Design</h3>
+                <p>I do develope and<br>
+                 design responsive websites</p>
+                <button type="button" class="btn-1">Read more
+                </button>
+            </div>
+            <div class="box">
+                <div class="s-icon">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>I do develope web that can last for long <br>
+                and which can hold<br>
+                many users</p>
+                <button type="bu
+                " class="btn-1">Read more
+                </button>
+            </div>
+            <div class="box">
+                <div class="s-icon">
+                    <i class="fa fa-creative-commons" aria-hidden="true"></i>
+                </div>
+                <h3>Creative Design</h3>
+                <p>I do develope and<br>
+                 design responsive websites</p>
+                <button type="bu
+                " class="btn-1">Read more
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio-->
+    <section class="portf" id="portfolio">
+        <div class="portf-text">
+            <p>Portfolio</p>
+            <h2><span class="latest">Latest</span> Project</h2>
+        </div>
+        
+    </section>
+
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact<span class="contact-me">Me!</span></h2>
+            <h4>Let's bring your project to life!</h4>
+            <p>With my expertise in Frontend development and Backend development, I can develop and design a stunning web interface that will elevate your company's online presence. Don't settle for a dull and unengaging website - let's work together to create something that truly stands out.</p>
+            <div class="list">
+                <div class="info">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <li><a href="#">+254742497659</a></li>
+                </div>
+                <div class="info">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <li><a href="#">onyangoelvis804@gmail.com</a></li>
+                </div>
+            </div>
+            <div class="contact-icon">
+                <a href="https://github.com/Elvis-Onyango"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="www.linkedin.com/in/elvis-onyango-b59b60280"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="onyangoelvis804@gmail.com" method="POST">
+                <input type="name" name="name" placeholder="Enter name" required>
+                <input type="email" name="email" placeholder="example@gmail.com" required>
+                <input type="digit" name="number" placeholder="Mobile number" required>
+                <textarea name="text" id="" cols="30" rows="10" placeholder="How can I help"></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+            </form>
+        </div>
+    </section>
+
+    <!-- chatbot section-->
+    <!--<div class="chat-bot-button">
+        <button class="chat" id="chat-toggle" onclick="openChat()"><i class="fa-brands fa-rocketchat"></i></button>
+    </div>
+    <div class="chat-box" id="chat-box">
+        <div class="chat-box-header">
+            <i class="fa-solid fa-times" id="close-chat-btn" onclick="closeChat()"></i>
+        </div>
+        <div class="chat-box-body">
+          <div class="response">
+            <p>Welcome Our AI health care assistant, how can I help you today?</p>
+          </div>
+        </div>
+        <div class="chat-box-footer">
+          <input type="text" placeholder="Ask a question..." />
+          <button>Send</button>
+        </div>
+      </div>-->
+    <!--footer section-->
+    <footer class="end">
+        <div class="last">
+            <a href="#" target="_blank">Elvisonyango</a></p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@gradio/client@0.10.1/dist/index.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
